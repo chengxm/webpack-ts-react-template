@@ -29,6 +29,7 @@ export const useStore = create(
         // Actions
         setThemeColor: (color: string) => set(() => ({ themeColor: color })),
         setUserInfo: (userInfo: UserInfo) => set(() => ({ userInfo })),
+        removeUserInfo: () => set(() => ({ userInfo: null })),
       })),
       {
         // Persist 配置项 (第二个参数)
