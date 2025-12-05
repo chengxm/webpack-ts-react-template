@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "ignoreDeprecations": "6.0",
+        "target": "es2017",
+        "module": "esnext",
+        "jsx": "react-jsx",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
